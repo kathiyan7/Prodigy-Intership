@@ -98,11 +98,11 @@ nav {
 }
 
 .project-card {
-    background-color: white;
+    /* background-color: red; */
     padding: 20px;
     width: 300px;
     margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 8px 8px 8px 8px white; */
     transition: transform 0.3s ease-in-out;
 	background-color: white;
 	color: red;
@@ -154,25 +154,45 @@ button:hover {
 footer {
     background-color: #333;
     color: white;
-    display:flex;
-    /* text-align: center; */
+    /* display:flex; */
+    /* position: fixed; */
+    text-align: center;
     padding: 10px 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.Contact{
+/* .Contact{
     color: white;
 }
 
 .end{
     padding-left: 193px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .Contact1{
     color: white;
     text-align: end;
     padding-left: 193px;
-}
+} */
+ .footer-links{
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+ }
+
+ .footer-links li{
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+ }
+
+ .footer-links a{
+    color: white;
+    font-weight: bold;
+ }
 
 #home { background: yellow; }
 #about  { background: lightgreen; }

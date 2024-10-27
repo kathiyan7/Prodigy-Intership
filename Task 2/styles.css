@@ -5,7 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: black;
+    background-image: linear-gradient( to right, black,rebeccapurple);
+    /* background-color: rebeccapurple; */
     /* background-color: #f0f0f0; */
 }
 
@@ -16,7 +17,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    box-shadow: 10px 10px 10px 10px purple;
+    /* box-shadow: 10px 10px 10px 10px rebeccapurple; */
 }
 
 #display {
